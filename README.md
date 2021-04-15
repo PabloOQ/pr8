@@ -1,4 +1,4 @@
-# PR8 CIU - Morphing Grid
+# PR8 CIU
 
 A finales del año pasado, con motivo del Processing Community Day @ Madrid – 2020
 Medialab Prado lanzó un call for #tinycode sketches, el resultado puede verse a través de
@@ -12,6 +12,8 @@ limitación hasta los 1024 caracteres. Se obviará el paso final de proyección 
 de nuestro edificio.
 
 Author - Pablo Ortigosa
+
+# Morphing Grid
 
 ## Decisiones
 
