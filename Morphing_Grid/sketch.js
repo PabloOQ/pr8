@@ -2,10 +2,10 @@ var m = []
 var squareSize
 
 let grid = 21
-let squareSpeed = 1
-let colorSpeed = 19.5
-let circleSpeed = 1
-let speed = 0.01
+let squareRatio = 1
+let circleRatio = 1
+let colorRatio = 20
+let step = 0.01
 
 function setup() {
   let size = 720
@@ -26,12 +26,12 @@ function draw() {
   background(0)
   for (var i = 0; i < m.length; i++) {
     for (var j = 0; j < m.length; j++) {
-      m[i][j] += speed
-      l = squareSize * ((1 + sin((m[i][j]) * squareSpeed)) / 2)
+      m[i][j] += step
+      l = squareSize * ((1 + sin((m[i][j]) * squareRatio)) / 2)
       offSet = (squareSize - l) / 2
-      fill(color((m[i][j] * colorSpeed) % 360, 360, 180))
+      fill(color((m[i][j] * colorRatio) % 360, 360, 180))
       square((i * squareSize) + offSet, (j * squareSize) + offSet, l,
-        (squareSize / 2) * ((1 + sin((m[i][j]) * circleSpeed + PI)) / 2))
+        (squareSize / 2) * ((1 + sin((m[i][j]) * circleRatio + PI)) / 2))
     }
   }
 }
