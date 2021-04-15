@@ -1,6 +1,7 @@
 var m = []
 var squareSize
 
+//WARNING: Changing these values may cause epilepsy
 let grid = 21
 let squareRatio = 1
 let circleRatio = 1
