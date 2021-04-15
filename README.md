@@ -51,6 +51,8 @@ Doy aquí múltiples valores que dan buenos resultados, recomiendo combinarlos:
 * circleRatio: 1, 2, 3, 4, 5, ,6, 7, 8
 * colorRatio: 3, 5, 10, 15, 20, 50, 100, 200, 400, 800, 1600, 3200
 
+No he probado mucho los valores negativos, y valores entre 0 y 1 también pueden resultar interesantes.
+
 ## Referencias
 
 El material de clase - @otsedom y Daniel.
