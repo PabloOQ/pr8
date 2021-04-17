@@ -63,6 +63,8 @@ P5.js API.
 
 Javascript API.
 
+[Desmos](https://www.desmos.com/calculator?lang=es) para visualizar distintas funciones de forma cómoda.
+
 ## Vista final
 
 [Morphing Grid](https://editor.p5js.org/PabloOQ/full/tVj3spf5N)
