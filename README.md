@@ -57,7 +57,7 @@ No he probado mucho los valores negativos, y valores entre 0 y 1 también pueden
 
 ## Referencias
 
-El material de clase - @otsedom y Daniel.
+El material de clase - hecho por @otsedom y Daniel.
 
 P5.js API.
 
