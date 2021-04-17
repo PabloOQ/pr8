@@ -15,7 +15,7 @@ function setup() {
   for (let i = 0; i < grid; i++) {
     m[i] = []
     for (let j = 0; j < grid; j++) {
-      m[i][j] = (-abs(mid - i) - abs(mid - j)) + grid
+      m[i][j] = (-abs(mid - i) - abs(mid - j))
     }
   }
   squareSize = width / m.length
@@ -30,7 +30,7 @@ function draw() {
       m[i][j] += step
       l = squareSize * ((1 + sin((m[i][j]) * squareRatio)) / 2)
       offSet = (squareSize - l) / 2
-      fill(color((m[i][j] * colorRatio) % 360, 360, 180))
+      fill(color(abs((m[i][j] * colorRatio) % 360), 360, 180))
       square((i * squareSize) + offSet, (j * squareSize) + offSet, l,
         (squareSize / 2) * ((1 + sin((m[i][j]) * circleRatio + PI)) / 2))
     }
