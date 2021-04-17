@@ -43,7 +43,7 @@ Se recomienda mantener *squareRatio* y *colorRatio* al mismo valor.
 
 Aviso: cambiar los ratios puede provocar epilepsia.
 
-Para editar el código y probar cosas nuevas [hacer click aquí](https://editor.p5js.org/PabloOQ/sketches/tVj3spf5N)
+Para editar el código y probar cosas nuevas [haz click aquí](https://editor.p5js.org/PabloOQ/sketches/tVj3spf5N)
 
 Aumentar demasiado el grid ralentizará la aplicación
 
