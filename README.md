@@ -21,6 +21,8 @@ Por la simpleza de la práctica pocas decisiones se han tomado más allá de los
 
 Además el ratio del color tiene un valor que poco a poco cambia los colores de las ondas, por lo que a la larga se puede notar como las distintas ondas no tienen siempre el mismo color.
 
+También añadí multiples variables y un comentario ya que no estaba cerca del límite de carácteres, así el código es más claro y es más fácil jugar con los parámetros. Hubiese separado también las múltiples funciones que indican el comportamiento de la rejilla, pero eso ocupaba bastante más.
+
 ## Implementación
 
 La entrega consiste en una matriz de tamaño (*grid*x*grid*), para inicializarla se ha reinterpretado el sistema de coordenadas de esta para que el centro sea (0,0) y luego se han inicializado los valores a `(-abs(x) - abs(y)) + grid` de esta forma los valores son decrecientes a medida que se alejan del centro (y positivos).
